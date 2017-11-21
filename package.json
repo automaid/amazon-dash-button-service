@@ -1,0 +1,33 @@
+{
+    "name": "@automaid/dash-button-service",
+    "version": "1.0.0",
+    "description": "Call HTTP Endpoints on the press of the dash button",
+    "main": "src/index.js",
+    "bin": {
+        "dash-button-service": "bin/dash-button-service"
+    },
+    "scripts": {
+        "start": "bin/dash-button-service",
+        "lint": "eslint src/** bin/**"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/automaid/amazon-dash-button-service.git"
+    },
+    "author": "Max Jöhnk <maxjoehnk@gmail.com>",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/automaid/amazon-dash-button-service/issues"
+    },
+    "homepage": "https://github.com/automaid/amazon-dash-button-service#readme",
+    "dependencies": {
+        "@automaid/url-executor": "^1.0.0",
+        "bunyan": "^1.8.12",
+        "js-yaml": "^3.10.0",
+        "node-dash-button": "^0.6.1",
+        "yargs": "^10.0.3"
+    },
+    "devDependencies": {
+        "eslint": "^4.11.0"
+    }
+}
