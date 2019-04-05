@@ -23,7 +23,7 @@
     "dependencies": {
         "@automaid/url-executor": "^1.0.0",
         "bunyan": "^1.8.12",
-        "js-yaml": "^3.10.0",
+        "js-yaml": "^3.13.1",
         "node-dash-button": "^0.6.1",
         "yargs": "^10.0.3"
     },
